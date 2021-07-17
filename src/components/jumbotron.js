@@ -1,5 +1,14 @@
 import Image from "./Image";
 import classes from "./Article.module.css";
+import Partners1 from "../Images/Rectangle 18.png";
+import Partners2 from "../Images/Rectangle 19.png";
+import Partners3 from "../Images/Rectangle 20.png";
+import Partners4 from "../Images/Rectangle 21.png";
+import Partners5 from "../Images/Rectangle 22.png";
+import Partners6 from "../Images/Rectangle 23.png";
+import Partners7 from "../Images/Rectangle 24.png";
+import Partners8 from "../Images/Rectangle 25.png";
+import Partners9 from "../Images/Rectangle 26.png";
 
 const jumbotron = () => {
   return (
@@ -15,58 +24,31 @@ const jumbotron = () => {
 
       <div className={classes.partnersGallery}>
         <div>
-          <Image
-            name={classes.partnersImg}
-            file={"./assets/Rectangle 18.png"}
-          />
+          <Image name={classes.partnersImg} file={Partners1} />
         </div>
         <div>
-          <Image
-            name={classes.partnersImg}
-            file={"./assets/Rectangle 19.png"}
-          />
+          <Image name={classes.partnersImg} file={Partners2} />
         </div>
         <div>
-          <Image
-            name={classes.partnersImg}
-            file={"./assets/Rectangle 20.png"}
-          />
+          <Image name={classes.partnersImg} file={Partners3} />
         </div>
         <div>
-          <Image
-            name={classes.partnersImg}
-            file={"./assets/Rectangle 21.png"}
-          />
+          <Image name={classes.partnersImg} file={Partners4} />
         </div>
         <div>
-          <Image
-            name={classes.partnersImg}
-            file={"./assets/Rectangle 22.png"}
-          />
+          <Image name={classes.partnersImg} file={Partners5} />
         </div>
         <div>
-          <Image
-            name={classes.partnersImg}
-            file={"./assets/Rectangle 23.png"}
-          />
+          <Image name={classes.partnersImg} file={Partners6} />
         </div>
         <div>
-          <Image
-            name={classes.partnersImg}
-            file={"./assets/Rectangle 24.png"}
-          />
+          <Image name={classes.partnersImg} file={Partners7} />
         </div>
         <div>
-          <Image
-            name={classes.partnersImg}
-            file={"./assets/Rectangle 25.png"}
-          />
+          <Image name={classes.partnersImg} file={Partners8} />
         </div>
         <div>
-          <Image
-            name={classes.partnersImg}
-            file={"./assets/Rectangle 26.png"}
-          />
+          <Image name={classes.partnersImg} file={Partners9} />
         </div>
       </div>
     </div>

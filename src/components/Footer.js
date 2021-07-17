@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 import classes from "./Footer.module.css";
 import Image from "./Image";
+import FooterImg from "../Images/group10.png";
+import FooterVector from "../Images/Vector.png";
+import FooterVector1 from "../Images/Vector (1).png";
+import FooterVector2 from "../Images/Vector (2).png";
+import FooterLines from "../Images/Line 1.png";
 
 const Footer = () => {
   return (
@@ -11,7 +16,7 @@ const Footer = () => {
           <Link to="/">
             <Image
               name={classes.footerImage}
-              file="../assets/group10.png"
+              file={FooterImg}
               alt="brand-logo"
             />
           </Link>
@@ -41,7 +46,7 @@ const Footer = () => {
               <p className={classes.link1}>
                 <Image
                   name={classes.linkImg}
-                  file="../assets/Vector.png"
+                  file={FooterVector}
                   alt="footer"
                 />
                 hnginternship
@@ -49,7 +54,7 @@ const Footer = () => {
               <p className="link1">
                 <Image
                   name={classes.linkImg}
-                  file="../assets/Vector (1).png"
+                  file={FooterVector1}
                   alt="footer"
                 />
                 hnginternship
@@ -57,7 +62,7 @@ const Footer = () => {
               <p className="link1">
                 <Image
                   name={classes.linkImg}
-                  file="../assets/Vector (2).png"
+                  file={FooterVector2}
                   alt="footer"
                 />
                 hnginternship
@@ -72,11 +77,7 @@ const Footer = () => {
         </div>
 
         <div className={classes.footerLine}>
-          <Image
-            name={classes.footLines}
-            file="./assets/Line 1.png"
-            alt="footer"
-          />
+          <Image name={classes.footLines} file={FooterLines} alt="footer" />
         </div>
 
         <div className={classes.footerTabs}>

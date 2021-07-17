@@ -2,6 +2,11 @@ import React from "react";
 import SupportContent from "./SupportContent";
 import Image from "./Image";
 import classes from "./Support.module.css";
+import ImageSupport from "../Images/Rectangle 28.png";
+import ImageSupport1 from "../Images/Rectangle 29.png";
+import ImageSupport2 from "../Images/Rectangle 30.png";
+import ImageSupport3 from "../Images/Frame 16.png";
+
 const Support = () => {
   return (
     <div className={classes.Support}>
@@ -9,24 +14,15 @@ const Support = () => {
         <div className={classes.mainGrid}>
           <SupportContent />
           <div className={classes.card1}>
-            <Image
-              name={classes.firstCard}
-              file={"../assets/Rectangle 28.png"}
-            />
+            <Image name={classes.firstCard} file={ImageSupport} />
           </div>
 
           <div className={classes.card2}>
-            <Image
-              name={classes.secondCard}
-              file={"../assets/Rectangle 30.png"}
-            />
+            <Image name={classes.secondCard} file={ImageSupport1} />
           </div>
 
           <div classes={classes.card3}>
-            <Image
-              name={classes.thirdCard}
-              file={"../assets/Rectangle 29.png"}
-            />
+            <Image name={classes.thirdCard} file={ImageSupport2} />
           </div>
         </div>
       </main>
@@ -38,10 +34,7 @@ const Support = () => {
             <br></br>
             hope today.
           </h3>
-          <Image
-            name={classes.articleWrapperImg}
-            file={"../assets/Frame 16.png"}
-          />
+          <Image name={classes.articleWrapperImg} file={ImageSupport3} />
         </div>
       </article>
 

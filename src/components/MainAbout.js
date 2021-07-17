@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "./Image";
 import classes from "./Article.module.css";
+import ImageAbout from "../Images/Telework-rafiki 1.png";
 
 const MainAbout = () => {
   return (
@@ -23,10 +24,7 @@ const MainAbout = () => {
       </div>
 
       <div class={classes.articleImg}>
-        <Image
-          name={classes.articleImage}
-          file={"./assets/Telework-rafiki 1.png"}
-        />
+        <Image name={classes.articleImage} file={ImageAbout} />
       </div>
     </article>
   );
