@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/HNGReact/static/css/main.5475acf3.chunk.css",
-    "main.js": "/HNGReact/static/js/main.65f59b30.chunk.js",
-    "main.js.map": "/HNGReact/static/js/main.65f59b30.chunk.js.map",
+    "main.js": "/HNGReact/static/js/main.3b8d7204.chunk.js",
+    "main.js.map": "/HNGReact/static/js/main.3b8d7204.chunk.js.map",
     "runtime-main.js": "/HNGReact/static/js/runtime-main.a4555a7c.js",
     "runtime-main.js.map": "/HNGReact/static/js/runtime-main.a4555a7c.js.map",
-    "static/js/2.c726a22b.chunk.js": "/HNGReact/static/js/2.c726a22b.chunk.js",
-    "static/js/2.c726a22b.chunk.js.map": "/HNGReact/static/js/2.c726a22b.chunk.js.map",
+    "static/js/2.3fabbe03.chunk.js": "/HNGReact/static/js/2.3fabbe03.chunk.js",
+    "static/js/2.3fabbe03.chunk.js.map": "/HNGReact/static/js/2.3fabbe03.chunk.js.map",
     "static/js/3.93ec3889.chunk.js": "/HNGReact/static/js/3.93ec3889.chunk.js",
     "static/js/3.93ec3889.chunk.js.map": "/HNGReact/static/js/3.93ec3889.chunk.js.map",
     "index.html": "/HNGReact/index.html",
     "static/css/main.5475acf3.chunk.css.map": "/HNGReact/static/css/main.5475acf3.chunk.css.map",
-    "static/js/2.c726a22b.chunk.js.LICENSE.txt": "/HNGReact/static/js/2.c726a22b.chunk.js.LICENSE.txt",
+    "static/js/2.3fabbe03.chunk.js.LICENSE.txt": "/HNGReact/static/js/2.3fabbe03.chunk.js.LICENSE.txt",
     "static/media/About.019e1e6d.png": "/HNGReact/static/media/About.019e1e6d.png",
     "static/media/Frame 1.a3290592.png": "/HNGReact/static/media/Frame 1.a3290592.png",
     "static/media/Frame 13.1857c37f.png": "/HNGReact/static/media/Frame 13.1857c37f.png",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a4555a7c.js",
-    "static/js/2.c726a22b.chunk.js",
+    "static/js/2.3fabbe03.chunk.js",
     "static/css/main.5475acf3.chunk.css",
-    "static/js/main.65f59b30.chunk.js"
+    "static/js/main.3b8d7204.chunk.js"
   ]
 }
