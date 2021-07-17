@@ -2,6 +2,7 @@ import React from "react";
 import Image from "./Image";
 import classes from "./Intern.module.css";
 
+
 const InternCard = ({
   name,
   internImg,
