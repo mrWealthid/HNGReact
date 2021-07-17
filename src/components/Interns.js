@@ -1,8 +1,9 @@
 import React from "react";
 import Slide from "./Slide";
 import InternContent from "./InternContent";
-
+import Header from "./Header";
 import classes from "./Intern.module.css";
+import Footer from "./Footer";
 
 const Interns = () => {
   //   const slider = function () {
@@ -94,10 +95,12 @@ const Interns = () => {
 
   return (
     <>
+      <Header />
       <InternContent />
       <div className={classes.slider}>
         <Slide />
       </div>
+      <Footer />
     </>
   );
 };
