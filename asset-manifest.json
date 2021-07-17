@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/HNGReact/static/css/main.9ab270e6.chunk.css",
-    "main.js": "/HNGReact/static/js/main.d8861aa0.chunk.js",
-    "main.js.map": "/HNGReact/static/js/main.d8861aa0.chunk.js.map",
+    "main.js": "/HNGReact/static/js/main.f82045c9.chunk.js",
+    "main.js.map": "/HNGReact/static/js/main.f82045c9.chunk.js.map",
     "runtime-main.js": "/HNGReact/static/js/runtime-main.a4555a7c.js",
     "runtime-main.js.map": "/HNGReact/static/js/runtime-main.a4555a7c.js.map",
     "static/js/2.daa5eaf9.chunk.js": "/HNGReact/static/js/2.daa5eaf9.chunk.js",
@@ -11,12 +11,29 @@
     "static/js/3.93ec3889.chunk.js.map": "/HNGReact/static/js/3.93ec3889.chunk.js.map",
     "index.html": "/HNGReact/index.html",
     "static/css/main.9ab270e6.chunk.css.map": "/HNGReact/static/css/main.9ab270e6.chunk.css.map",
-    "static/js/2.daa5eaf9.chunk.js.LICENSE.txt": "/HNGReact/static/js/2.daa5eaf9.chunk.js.LICENSE.txt"
+    "static/js/2.daa5eaf9.chunk.js.LICENSE.txt": "/HNGReact/static/js/2.daa5eaf9.chunk.js.LICENSE.txt",
+    "static/media/About.019e1e6d.png": "/HNGReact/static/media/About.019e1e6d.png",
+    "static/media/Frame 1.a3290592.png": "/HNGReact/static/media/Frame 1.a3290592.png",
+    "static/media/Frame 13.1857c37f.png": "/HNGReact/static/media/Frame 13.1857c37f.png",
+    "static/media/Frame 16.f134015a.png": "/HNGReact/static/media/Frame 16.f134015a.png",
+    "static/media/Frame 2.e1431f90.png": "/HNGReact/static/media/Frame 2.e1431f90.png",
+    "static/media/Frame 4.6c461f7d.png": "/HNGReact/static/media/Frame 4.6c461f7d.png",
+    "static/media/Frame 5.ed96812b.png": "/HNGReact/static/media/Frame 5.ed96812b.png",
+    "static/media/Group 1.0c1957dc.png": "/HNGReact/static/media/Group 1.0c1957dc.png",
+    "static/media/Motun.a6372ce9.jpg": "/HNGReact/static/media/Motun.a6372ce9.jpg",
+    "static/media/Rectangle 18.4b65ce01.png": "/HNGReact/static/media/Rectangle 18.4b65ce01.png",
+    "static/media/Rectangle 26.1daa2d9d.png": "/HNGReact/static/media/Rectangle 26.1daa2d9d.png",
+    "static/media/Rectangle 28.d662c823.png": "/HNGReact/static/media/Rectangle 28.d662c823.png",
+    "static/media/Rectangle 29.b39a1f2f.png": "/HNGReact/static/media/Rectangle 29.b39a1f2f.png",
+    "static/media/Rectangle 30.c78039c7.png": "/HNGReact/static/media/Rectangle 30.c78039c7.png",
+    "static/media/Telework-rafiki 1.271578e3.png": "/HNGReact/static/media/Telework-rafiki 1.271578e3.png",
+    "static/media/Traindemy.14ce027a.png": "/HNGReact/static/media/Traindemy.14ce027a.png",
+    "static/media/avatar_wy9ax8.8e0b739a.jpg": "/HNGReact/static/media/avatar_wy9ax8.8e0b739a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a4555a7c.js",
     "static/js/2.daa5eaf9.chunk.js",
     "static/css/main.9ab270e6.chunk.css",
-    "static/js/main.d8861aa0.chunk.js"
+    "static/js/main.f82045c9.chunk.js"
   ]
 }
