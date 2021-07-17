@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+.slider {
+  max-width: 100rem;
+  height: 50rem;
+  margin: 0 auto;
+  position: relative;
+
+  /* IN THE END */
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.slide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50rem;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  /* THIS creates the animation! */
+  transition: transform 1s;
 }
 
-.App-link {
-  color: #61dafb;
+/* Only for images that have different size than slide */
+
+.sliderBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+
+  border: none;
+
+  font-family: inherit;
+  color: #333;
+  border-radius: 50%;
+  height: 5.5rem;
+  width: 5.5rem;
+  font-size: 3.25rem;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sliderBtnLeft {
+  left: 6%;
+  transform: translate(-50%, -50%);
+}
+
+.sliderBtnRight {
+  right: 6%;
+  transform: translate(50%, -50%);
+}
+
+.dots {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.dotsDot {
+  border: none;
+  background-color: #b9b9b9;
+  opacity: 0.7;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  margin-right: 1.75rem;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  /* Only necessary when overlying images */
+  /* box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.7); */
+}
+
+.dotsDot:last-child {
+  margin: 0;
+}
+
+.dotsDotActive {
+  /* background-color: #fff; */
+  background-color: var(--secondary-color);
+  opacity: 1;
 }
