@@ -5,6 +5,11 @@ import classes from "./App.module.css";
 // import { Link } from "react-router-dom";
 
 const Header = () => {
+  const activeStyles = {
+    color: " rgba(0, 174, 255, 1)",
+    backgroundColor: "white",
+    border: "1px solid  rgba(0, 174, 255, 1)",
+  };
   return (
     <header className={classes.header}>
       <HeaderImage />
@@ -16,6 +21,7 @@ const Header = () => {
         <HeaderLinks
           name={classes.activeLink}
           link="/Join"
+          activeStyle={activeStyles}
           linkText={"Join Us"}
         />
       </div>

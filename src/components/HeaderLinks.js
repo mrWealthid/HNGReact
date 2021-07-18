@@ -1,13 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import classes from "./App.module.css";
 
-const HeaderLinks = ({ name, linkText, link }) => {
+const HeaderLinks = ({ name, linkText, link, activeStyle }) => {
+  // const activeStyle = { color: " rgba(0, 174, 255, 1)" }; using navlinks to attach styles to active links.
   return (
     <>
-      <Link className={name} to={link}>
+      <NavLink activeStyle={activeStyle} className={name} to={link}>
         {linkText}
-      </Link>
+      </NavLink>
     </>
   );
 };
@@ -16,6 +17,7 @@ HeaderLinks.defaultProps = {
   link: "/",
   linkText: "test",
   name: classes.link,
+  activeStyle: { color: " rgba(0, 174, 255, 1)" },
 };
 
 export default HeaderLinks;
