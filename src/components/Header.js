@@ -2,7 +2,6 @@ import React from "react";
 import HeaderLinks from "./HeaderLinks";
 import HeaderImage from "./HeaderImage";
 import classes from "./App.module.css";
-// import { Link } from "react-router-dom";
 
 const Header = () => {
   const activeStyles = {
